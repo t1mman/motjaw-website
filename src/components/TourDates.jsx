@@ -6,7 +6,6 @@ export default function TourDates() {
   return (
     <section id="tour" className="section-container">
       <div className="section-header">
-        <div className="badge-pill">EN TOURNÉE</div>
         <h2 className="section-title">PROCHAINS SPECTACLES</h2>
         <p className="section-desc">Retrouvez-nous en salle et en festival partout au Québec.</p>
       </div>

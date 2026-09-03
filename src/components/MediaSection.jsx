@@ -8,7 +8,7 @@ export default function MediaSection() {
       {/* À Propos */}
       <div id="about" className="about-grid">
         <div className="about-text">
-          <div className="badge-pill">AUTHENTICITÉ & PUISSANCE</div>
+          <div className="badge-pill">INTENSE, AUTHENTIQUE, PUISANT!</div>
           <h2 className="section-title">L'EXPÉRIENCE MOTJAW</h2>
           <p>
             Fondé avec la volonté de faire vibrer les passionnés de rock alternatif et de nu-metal, <strong>MOTJAW</strong> reproduit fidèlement la signature sonore et l'intensité émotionnelle de Linkin Park.

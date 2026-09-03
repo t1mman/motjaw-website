@@ -19,11 +19,13 @@ export default function Hero() {
 
         {/* Titre avec dégradé Cyan Métallique */}
         <h1 className="cyan-gradient-title">
-          PORTAIL SPECTACLE - MOTJAW
+          MOTJAW - Linkin Park Tribute
         </h1>
 
         <p className="hero-subtitle">
-          L'expérience live hommage à Linkin Park. Une production sonore percutante et une scénographie immersive conçues pour les festivals, salles de spectacle et événements majeurs.
+          L’expérience Linkin Park la plus authentique au Québec. <br />
+            Intense, immersive, Puissante.<br />
+            Bienvenue dans l’univers MOTJAW.
         </p>
 
         {/* Onglets / Boutons de navigation */}
