@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   width: 100%;
   font-family: 'Inter', sans-serif;
-  color: #f0fdf4;
+  color: #c4b5fd;
   background-color: #06030a;
   overflow-x: hidden;
   line-height: 1.5;
@@ -213,17 +213,35 @@ body {
   filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.45));
 }
 
+/* Badge Nu-Metal */
+.badge-pill {
+  display: inline-block;
+  background: rgba(22, 13, 33, 0.7);
+  border: 1px solid #00ff88;
+  color: #00ff88;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  box-shadow: 0 0 12px rgba(0, 255, 136, 0.25);
+  margin-bottom: 14px;
+  backdrop-filter: blur(8px);
+}
+
+/* Titre principal avec le dégradé néon exact de booking */
 .cyan-gradient-title {
   font-family: 'Teko', sans-serif;
-  font-size: clamp(34px, 6vw, 46px);
+  font-size: 44px;
   line-height: 1.25;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin: 4px 0 12px 0;
-  color: #00ff88;
-  text-shadow: 
-    0 2px 4px rgba(0, 0, 0, 0.95),
-    0 0 14px rgba(0, 255, 136, 0.45);
+  background: linear-gradient(90deg, #c084fc 0%, #00ff88 50%, #e879f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 14px rgba(0, 255, 136, 0.35));
   display: inline-block;
 }
 
@@ -312,26 +330,22 @@ body {
   display: inline-block;
   width: 100%;
   padding: 16px 20px;
-  
-  /* Halo sombre semi-transparent qui adoucit l'image derrière le texte */
   background: radial-gradient(ellipse at center, rgba(6, 3, 10, 0.85) 0%, rgba(6, 3, 10, 0) 75%);
   border-radius: 12px;
 }
 
-/* Titre en vert néon percutant */
+/* Titre de section avec le dégradé néon de booking */
 .section-title {
   font-family: 'Teko', sans-serif;
   font-size: clamp(32px, 5vw, 42px);
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #00ff88;
   margin-bottom: 6px;
-  
-  /* Ombrage noir de découpe + lueur néon verte */
-  text-shadow: 
-    0 2px 4px rgba(0, 0, 0, 0.95),
-    0 0 10px rgba(0, 0, 0, 0.9),
-    0 0 16px rgba(0, 255, 136, 0.55);
+  display: inline-block;
+  background: linear-gradient(90deg, #c084fc 0%, #00ff88 50%, #e879f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 14px rgba(0, 255, 136, 0.35));
 }
 
 /* Sous-titre en mauve lilas (#c4b5fd) */
@@ -340,28 +354,10 @@ body {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
-  
-  /* Double ombrage noir pour détacher les lettres du fond clair + léger halo lilas */
   text-shadow: 
     0 1px 3px rgba(0, 0, 0, 0.95),
     0 2px 8px rgba(0, 0, 0, 0.95),
     0 0 12px rgba(196, 181, 253, 0.35);
-}
-
-.badge-pill {
-  display: inline-block;
-  background: rgba(22, 13, 33, 0.7);
-  border: 1px solid #00ff88;
-  color: #c4b5fd;
-  font-family: 'Teko', sans-serif;
-  font-size: 18px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding: 4px 14px;
-  border-radius: 9999px;
-  box-shadow: 0 0 12px rgba(0, 255, 136, 0.25);
-  margin-bottom: 14px;
-  backdrop-filter: blur(8px);
 }
 
 /* ==========================================================================

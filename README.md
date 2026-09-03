@@ -107,6 +107,19 @@ L'application sera accessible par défaut à l'adresse : `http://localhost:5173`
 
 ---
 
+## Synchronisation avec le Git
+
+**Pour pousser vos modifications locales vers GitHub : :**
+```bash
+git add .
+git commit -m "Description du changement"
+git push
+```
+
+L'application sera accessible par défaut à l'adresse : `http://localhost:5173`.
+
+---
+
 ## Déploiement en production
 
 1. **Générer le build de production :**

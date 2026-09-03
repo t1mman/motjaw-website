@@ -8,26 +8,29 @@ export default function MediaSection() {
       {/* À Propos */}
       <div id="about" className="about-grid">
         <div className="about-text">
-          <div className="badge-pill">INTENSE, AUTHENTIQUE, PUISANT!</div>
+          <div className="badge-pill">INTENSE, AUTHENTIQUE, PUISSANT!</div><br />
           <h2 className="section-title">L'EXPÉRIENCE MOTJAW</h2>
           <p>
-            Fondé avec la volonté de faire vibrer les passionnés de rock alternatif et de nu-metal, <strong>MOTJAW</strong> reproduit fidèlement la signature sonore et l'intensité émotionnelle de Linkin Park.
+            L’expérience Linkin Park la plus authentique au Québec. <br />
+            Un show intense, immersif et chargé d’émotion qui fait vibrer chaque salle.<br />
+            Préparez-vous à revivre les classiques d’hier à aujourd’hui de Linkin Park dans un spectacle où la puissance sonore, l’énergie brute et la connexion avec le public créent un moment unique. MOTJAW, c’est une communauté qui grandit à chaque performance — et vous en faites partie dès la première note.
+
           </p>
           <p>
-            Des riffs tranchants aux ambiances électro en passant par la dynamique vocale alternant mélodie et puissance brute, chaque prestation est pensée comme une immersion scénique complète avec régie technique adaptée.
+            
           </p>
           <div className="features-checklist">
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span>Répertoire best-of 75 à 120+ minutes</span>
+              <span className="text-neon-green">Répertoire best-of 75 à 120+ minutes</span>
             </div>
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span>Kit éclairage scénique DMX autonome disponible</span>
+              <span className="text-neon-green">Kit éclairage scénique DMX autonome disponible</span>
             </div>
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span>Système de sonorisation & technicien FOH sur demande</span>
+              <span className="text-neon-green">Système de sonorisation & technicien FOH sur demande</span>
             </div>
           </div>
         </div>
