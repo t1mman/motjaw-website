@@ -1,0 +1,43 @@
+import React from 'react';
+import { SOCIAL_LINKS } from '../data/bandData';
+import { Calendar, Ticket } from 'lucide-react';
+import logoImg from '../assets/images/logo.png';
+
+export default function Hero() {
+  return (
+    <header id="hero" className="hero-section">
+      {/* Boîtier Glassmorphism central */}
+      <div className="hero-panel">
+        <div className="hero-logo-box">
+          <img 
+            src={logoImg} 
+            alt="MOTJAW - Linkin Park Tribute" 
+            className="hero-logo-main" 
+            onError={(e) => { e.target.style.display = 'none'; }}
+          />
+        </div>
+
+        {/* Titre avec dégradé Cyan Métallique */}
+        <h1 className="cyan-gradient-title">
+          PORTAIL SPECTACLE - MOTJAW
+        </h1>
+
+        <p className="hero-subtitle">
+          L'expérience live hommage à Linkin Park. Une production sonore percutante et une scénographie immersive conçues pour les festivals, salles de spectacle et événements majeurs.
+        </p>
+
+        {/* Onglets / Boutons de navigation */}
+        <div className="hero-tabs-actions">
+          <a href={SOCIAL_LINKS.bookingPortal} className="btn-tab-active">
+            <Ticket size={20} />
+            1. Demande de soumission
+          </a>
+          <a href="#tour" className="btn-tab-inactive">
+            <Calendar size={20} />
+            2. Dates de spectacles
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+}
