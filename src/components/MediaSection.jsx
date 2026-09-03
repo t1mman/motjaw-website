@@ -9,7 +9,7 @@ export default function MediaSection() {
       <div id="about" className="about-grid">
         <div className="about-text">
           <div className="badge-pill">INTENSE, AUTHENTIQUE, PUISSANT!</div><br />
-          <h2 className="section-title">L'EXPÉRIENCE MOTJAW</h2>
+          <h2 className="section-title">L'EXPÉRIENCE <span className="brand-font">MOTJAW</span></h2>
           <p>
             L’expérience Linkin Park la plus authentique au Québec. <br />
             Un show intense, immersif et chargé d’émotion qui fait vibrer chaque salle.<br />

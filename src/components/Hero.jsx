@@ -19,13 +19,13 @@ export default function Hero() {
 
         {/* Titre avec dégradé Cyan Métallique */}
         <h1 className="cyan-gradient-title">
-          MOTJAW - Linkin Park Tribute
+          <span className="brand-font">MOTJAW</span> - Linkin Park Tribute
         </h1>
 
         <p className="hero-subtitle">
           L’expérience Linkin Park la plus authentique au Québec. <br />
             Intense, immersive, Puissante.<br />
-            Bienvenue dans l’univers MOTJAW.
+            Bienvenue dans l’univers <span className="brand-font">MOTJAW</span>.
         </p>
 
         {/* Onglets / Boutons de navigation */}
