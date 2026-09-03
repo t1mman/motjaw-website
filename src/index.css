@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Teko:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Teko:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'HybridTheory';
+  src: url('/fonts/HibridTheory.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /* ==========================================================================
    RESET & STRUCTURE GLOBALE (Colonnes extérieures)
    ========================================================================== */
@@ -89,12 +97,15 @@ body {
 }
 
 .brand-text {
-  font-family: 'Teko', sans-serif;
-  font-size: 32px;
-  letter-spacing: 2px;
-  color: #00ff88;
+  font-family: 'HybridTheory', sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
   line-height: 1;
-  text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+  display: inline-block;
+  background: linear-gradient(90deg, #c084fc 0%, #00ff88 50%, #e879f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 136, 0.45));
 }
 
 .nav-links {
@@ -600,12 +611,15 @@ body {
 }
 
 .footer-brand {
-  font-family: 'Teko', sans-serif;
-  font-size: 32px;
-  letter-spacing: 2px;
-  margin-bottom: 4px;
-  color: #00ff88;
-  text-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+  font-family: 'HybridTheory', sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1;
+  display: inline-block;
+  background: linear-gradient(90deg, #c084fc 0%, #00ff88 50%, #e879f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 136, 0.45));
 }
 
 .footer-tagline {

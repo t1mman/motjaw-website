@@ -28,7 +28,7 @@ export default function Footer() {
     <footer id="contact" className="site-footer">
       <div className="footer-content">
         <div className="footer-col brand-col">
-          <h3 className="footer-brand">MOTJAW</h3>
+          <span className="brand-text">MOTJAW</span>
           <p className="footer-tagline">Hommage à Linkin Park — Québec, Canada.</p>
           <div className="footer-socials">
             <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">

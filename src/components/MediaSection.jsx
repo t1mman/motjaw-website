@@ -22,15 +22,15 @@ export default function MediaSection() {
           <div className="features-checklist">
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span className="text-neon-green">Répertoire best-of 75 à 120+ minutes</span>
+              <span className="text-neon-green">Répertoire varié jusqu'à 120+ minutes</span>
             </div>
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span className="text-neon-green">Kit éclairage scénique DMX autonome disponible</span>
+              <span className="text-neon-green">Éclairage et ambiance immersive unique en son genre</span>
             </div>
             <div className="check-item">
               <ShieldCheck size={18} className="text-neon-green" />
-              <span className="text-neon-green">Système de sonorisation & technicien FOH sur demande</span>
+              <span className="text-neon-green">Plusieurs formules disponibles selon vos besoins</span>
             </div>
           </div>
         </div>
