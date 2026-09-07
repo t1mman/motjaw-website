@@ -6,7 +6,7 @@ export const SOCIAL_LINKS = {
   youtube: "https://www.youtube.com/@motjaw",
   email: "motjaw2021@gmail.com",
   bookingPortal: "/motjawbooking/", // Redirige directement vers ton portail de booking
-  featuredVideoId: "geBYgZVPn08",
+  featuredVideoId: "P_rkFbeIj6o",
 };
 
 export const UPCOMING_SHOWS = [
