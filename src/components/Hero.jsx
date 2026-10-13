@@ -27,7 +27,7 @@ export default function Hero() {
             Intense, immersive, Puissante.<br />
             Bienvenue dans l’univers <span className="brand-font">MOTJAW</span>. <br />
 
-            Disponnibles pour les festivals, salles de spectacles, <br />
+            Disponibles pour les festivals, salles de spectacles, <br />
             bars, événements corporatifs et événements privés <br /> 
             partout au Québec et dans l’Est du Canada. <br />
         </p>
