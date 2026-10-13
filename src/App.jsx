@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import TourDates from './components/TourDates';
 import MediaSection from './components/MediaSection';
 import Footer from './components/Footer';
+import BandSlideshow from './components/BandSlideshow';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <BandSlideshow />
         <TourDates />
         <MediaSection />
       </main>
