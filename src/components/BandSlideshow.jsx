@@ -2,32 +2,25 @@
 
 import { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-
-const images = [
-  '/bandshots/shot1.jpg',
-  '/bandshots/shot2.jpg',
-  '/bandshots/shot3.jpg',
-  '/bandshots/shot4.jpg',
-  '/bandshots/shot5.jpg',
-];
+import { BAND_SHOTS } from '../data/bandData';
 
 export default function BandSlideshow() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
+      setCurrent((prev) => (prev + 1) % BAND_SHOTS.length);
     }, 5000);
 
     return () => clearInterval(timer);
   }, []);
 
   const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % images.length);
+    setCurrent((prev) => (prev + 1) % BAND_SHOTS.length);
   };
 
   const prevSlide = () => {
-    setCurrent((prev) => (prev - 1 + images.length) % images.length);
+    setCurrent((prev) => (prev - 1 + BAND_SHOTS.length) % BAND_SHOTS.length);
   };
 
   return (
@@ -41,7 +34,7 @@ export default function BandSlideshow() {
 
       <div className="slideshow-container">
 
-        {images.map((image, index) => (
+        {BAND_SHOTS.map((image, index) => (
           <div
             key={image}
             className={`slide ${index === current ? 'active' : ''}`}
@@ -70,7 +63,7 @@ export default function BandSlideshow() {
         </button>
 
         <div className="slide-dots">
-          {images.map((_, index) => (
+          {BAND_SHOTS.map((_, index) => (
             <button
               key={index}
               className={`slide-dot ${

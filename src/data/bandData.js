@@ -11,30 +11,20 @@ export const SOCIAL_LINKS = {
 
 export const UPCOMING_SHOWS = [
   {
-    id: 1,
-    date: "25 Septembre",
-    city: "Québec",
-    venue: "Studio Sonum",
-    featuring: "Avec BEER DANCE (Hommage à System of a Down)",
-    ticketLink: "https://www.facebook.com/share/196mVpWdjj/",
-    status: "Billets disponibles"
-  },
-  {
-    id: 2,
-    date: "26 Septembre",
-    city: "Saguenay",
-    venue: "Brasserie Port-Alfred",
-    featuring: "Avec BEER DANCE (Hommage à System of a Down)",
-    ticketLink: "https://www.facebook.com/share/198GN74wUn/",
-    status: "Billets disponibles"
-  },
-  {
     id: 3,
-    date: "03 Octobre",
+    date: "20 Mars",
     city: "Victoriaville",
     venue: "Taverne O Match",
     featuring: "Avec New Wastelands",
     ticketLink: "https://www.facebook.com/share/1BpxVdvRjX/",
     status: "Billets disponibles"
   }
+];
+
+export const BAND_SHOTS = [
+  '/bandshots/shot1.jpg',
+  '/bandshots/shot2.jpg',
+  '/bandshots/shot3.jpg',
+  '/bandshots/shot4.jpg',
+  '/bandshots/shot5.jpg',
 ];
