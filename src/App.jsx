@@ -1,22 +1,28 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TourDates from './components/TourDates';
-import MediaSection from './components/MediaSection';
-import Footer from './components/Footer';
-import BandSlideshow from './components/BandSlideshow';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+
+import HomePage from './pages/HomePage';
+import LinkinParkTributePage from './pages/LinkinParkTributePage';
 
 export default function App() {
   return (
-    <div className="app-layout">
-      <Navbar />
-      <main>
-        <Hero />
-        <BandSlideshow />
-        <TourDates />
-        <MediaSection />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+
+        <Route
+          path="/"
+          element={<HomePage />}
+        />
+
+        <Route
+          path="/linkin-park-tribute-quebec"
+          element={<LinkinParkTributePage />}
+        />
+
+      </Routes>
+    </BrowserRouter>
   );
 }

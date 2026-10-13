@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="hero-logo-box">
           <img 
             src={logoImg} 
-            alt="MOTJAW - Linkin Park Tribute" 
+            alt="MOTJAW - Linkin Park Tribute au Québec" 
             className="hero-logo-main" 
             onError={(e) => { e.target.style.display = 'none'; }}
           />
@@ -25,7 +25,11 @@ export default function Hero() {
         <p className="hero-subtitle">
           L’expérience Linkin Park la plus authentique au Québec. <br />
             Intense, immersive, Puissante.<br />
-            Bienvenue dans l’univers <span className="brand-font">MOTJAW</span>.
+            Bienvenue dans l’univers <span className="brand-font">MOTJAW</span>. <br />
+
+            Disponnibles pour les festivals, salles de spectacles, <br />
+            bars, événements corporatifs et événements privés <br /> 
+            partout au Québec et dans l’Est du Canada. <br />
         </p>
 
         {/* Onglets / Boutons de navigation */}

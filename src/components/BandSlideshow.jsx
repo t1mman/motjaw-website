@@ -41,7 +41,7 @@ export default function BandSlideshow() {
           >
             <img
               src={image}
-              alt={`MOTJAW Live ${index + 1}`}
+              alt={`MOTJAW en spectacle au Québec`}
             />
           </div>
         ))}

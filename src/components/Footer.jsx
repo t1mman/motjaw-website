@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { SOCIAL_LINKS } from '../data/bandData';
 import { Mail, ArrowUpRight } from 'lucide-react';
 
@@ -45,13 +46,21 @@ export default function Footer() {
 
         <div className="footer-col links-col">
           <h4>Navigation</h4>
+
           <ul>
             <li><a href="#hero">Accueil</a></li>
             <li><a href="#about">Le Groupe</a></li>
             <li><a href="#tour">Spectacles</a></li>
             <li><a href="#media">Médias</a></li>
+
+            <li>
+              <Link to="/linkin-park-tribute-quebec">
+                Hommage Linkin Park
+              </Link>
+            </li>
           </ul>
         </div>
+        
 
         <div className="footer-col booking-col">
           <h4>Production & Diffusion</h4>
@@ -70,6 +79,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} MOTJAW. Tous droits réservés.</p>
       </div>
+      
     </footer>
   );
 }
